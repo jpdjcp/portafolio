@@ -64,6 +64,18 @@ body {
     gap: 40px;
 }
 
+.presentacion__contenido__proyectos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.presentacion__enlaces__proyecto:hover {
+    background-color: var(--color-hover);
+    cursor: pointer;
+}
+
 .presentacion__contenido__titulo {
     font-size: var(--font-size-h1);
     font-family: 'Krona One', sans-serif;
@@ -108,6 +120,28 @@ body {
 .presentacion__enlaces__link:hover {
     background-color: var(--color-hover);
     cursor: pointer;
+}
+
+.presentacion__enlaces__proyecto {
+    text-decoration: none;
+    color: var(--color-secundario);
+    padding: 21.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.presentacion__enlaces__proyecto__descripcion {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.presentacion__imagen__proyecto {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid var(--color-terciario);
+    border-radius: 8px;
 }
 
 .presentacion__imagen {
